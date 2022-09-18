@@ -11,6 +11,20 @@ A JSONLZ4 file contains compressed user profile data created by Mozilla Firefox 
 You will most likely encounter JSONLZ4 files only if you are exploring the Profile folder where Firefox stores information about user profile.
 The reason user information is saved in a separate place from the Firefox application is to protect user profile from being deleted if you need to uninstall and reinstall Firefox on your computer.
 
+Where are JSONLZ4 files stored?
+
+JSONLZ4 files are stored in subdirectories of Firefox's Profiles directory, including the bookmarkbackups and datareporting/archived directories. Firefox's Profiles directory is stored in different locations on different operating systems.
+
+In Windows - You can navigate to the location of your profile information by clicking the Menu icon (appears as three horizontal lines) and selecting Help → Troubleshooting Information in Firefox. Then, click the Open Folder button next to "Profile Folder" in the "Application Basics" section to open a window that displays your profile folder. The directory is most likely the following path:
+
+C:\Users\\[username]\AppData\Roaming\Mozilla\Firefox\Profiles\
+
+In Linux, macOS - You can navigate to the location of your profile information by selecting Help → Troubleshooting Information in Firefox. Then, click the Show in Finder button next to "Profile Folder" in the "Application Basics" section to open a window that displays your profile folder. The directory is most likely the following path:
+
+/Users/[username]/Library/Application Support/Firefox/Profiles/
+
+/home/[username]/.mozilla/firefox/[somename].default
+
 Sometimes, for various reasons, users or Forensic specialists want to extract data from this user profile file.
 This converterprogram is designed to help in this matter.
 
