@@ -2,7 +2,7 @@
 
 ## Description
 
-This command line tool converts Firefox bookmark backup file from .jsonlz4 format to JSON format
+This command line tool converts Firefox user profile data backup file from .jsonlz4 format to JSON format.
 
 What is a JSONLZ4 file?
 
