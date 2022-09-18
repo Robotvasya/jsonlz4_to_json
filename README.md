@@ -33,9 +33,10 @@ This converterprogram is designed to help in this matter.
 To run this tool,the Python3 shoul be in your system.
 
 1. Download script zip-file or clone repo
-2. Make virtual environment to avoid broken dependences when you install the script. Activate environment
-3. Install dependences pip3 install -r requirements.txt
-4. Run jsonlz4_conv.py
+2. Make virtual environment ([Venv environment](https://docs.python.org/3/library/venv.html)) to avoid broken dependences when you install the script. Activate environment
+3. Install dependences `python3 -m pip install -r requirements.txt` or `python -m pip install -r requirements.txt` on windows 
+
+Then run jsonlz4_conv.py
 
 ## Usage
 
